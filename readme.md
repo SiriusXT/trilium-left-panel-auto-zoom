@@ -1,0 +1,1 @@
+When the tree on the left panel has a lot of long titles, it is not convenient to view. This script can automatically increase the width of the left panel when the mouse moves to the left.
