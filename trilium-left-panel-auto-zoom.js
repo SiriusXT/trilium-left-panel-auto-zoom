@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    // version: 0.2
+    // version: 0.2.1
 	function showR() {
 		window.sf = new Array();
 		window.sf['model'] = 1 // Select the activation mode 
@@ -152,6 +152,16 @@ function inRest() {
         window.sf['left_display']=0;
         return
     }
+    	// show the paragraph edit button 
+var pb = document.getElementsByClassName("ck-button");
+    if (typeof(pb) != "undefined") {
+        var i;
+        for (i = 0; i < pb.length; i++) {
+            pb[i].style.display = "inline-flex";
+        }
+
+    }
+    
 	var benci = window.sf['now'];
 	for (var i = 0; i < window.sf['inLeft'] + 1; i += 1) {
 		(function(i) {
