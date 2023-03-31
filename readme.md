@@ -2,7 +2,9 @@ Automatically widen note tree by moving your mouse. A convenient widget to navig
 
 When the tree on the left panel has a lot of long titles, it is not convenient to view. 
 This script can automatically increase the width of the left panel when the mouse moves to the left.
-## version: 0.2.1
+## Update
+Increase the setting: when moving to the left, the mouse needs to hover for a while, which can prevent accidental mouseEnter.
+## Version: 0.2.2
 ## Installation
 Create a code note of type JS Frontend with the contents of trilium-left-panel-auto-zoom.js and the label #widget
 ## Features
